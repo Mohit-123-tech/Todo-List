@@ -1,0 +1,7 @@
+{
+    "Name":"TO-DO_List",
+    "date":"22/03/2024",
+    "soundOne":"Src/sound/m1.mp3",
+    "soundTwo":"Src/sound/m2.mp3",
+    "database":"Src/Database/List.db"
+}
