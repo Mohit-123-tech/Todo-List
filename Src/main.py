@@ -6,6 +6,8 @@ from random import sample
 from playsound import playsound
 from colorama import Fore
 from datetime import datetime
+# from sys import platform
+from os import system
 
 API = json.load(open("Src/Json/api.json"))
 Num = "1234567890"
@@ -42,6 +44,7 @@ class todo:
 
 
 if __name__ == "__main__":
+    system("clear")
     while(True):
         print(Fore.GREEN, MENU, Fore.WHITE)
 
